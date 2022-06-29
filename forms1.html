@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title> forms</title>
+	</head>
+	<body>
+		<center><h1> student Registration Form</h1></center>
+		<form action="forms" method="post">
+			<table align="center">
+				<tr>
+					<td><label>Reg No</label></td>
+					 <td><input type="text" name="rollno" placeholder="Enter your RegNo"></td>
+				</tr>
+				<tr>
+					<td><label >Name</label></td>
+					<td><input type="text"  name="fname" placeholder="enter your name" ><br></td>
+				</tr>
+				<tr>
+					<td><label >Father Name</label></td>
+					<td><input type="text"  name="fathername" placeholder="enter your father name" ><br></td>
+				</tr>
+				<tr>
+					<td><label>Date of Birth</label></td>
+					<td><input type="date" name="d.o.b"></td>
+				</tr>
+				<tr>
+
+					<td>Gender<br></td>
+					<td><input type="radio" name="g" value="M">male<br>
+					<input type="radio" name="g " value ="F">female</td>	
+				</tr>
+					
+				<tr>
+				    <td>Languages Known</td>
+					<td><input type="checkbox" name="LanguagesKnown">
+					
+					C<input type="checkbox" name="LanguagesKnown">
+					
+					C++<input type="checkbox" name="LanguagesKnown"><br>
+					
+					R<input type="checkbox" name="LanguagesKnown">		
+					
+					Java<input type="checkbox" name="LanguagesKnown">
+					Julia<input type="checkbox" name="LanguagesKnown"></td>
+				</tr>		
+		
+				<tr>
+					<td>Branch</td>
+					<td><select  >
+					<option value="cse" name="b">Cse</option>
+					<option value="it" name="b">IT</option>
+					<option value="Ai&ds" name="b"> Ai&ds</option>
+					<option value="ai&ml" name="b">AI&Ml</option>
+					<option value="ece" name="b">ECE</option>
+					<option value="EEE" name="b"> EEE</option>
+					<option value="me" name="b">ME</option>
+					<option value="ce" name="b">CE</option>
+				</select></td>
+				</tr>
+				</tr>
+
+					<td>Address : </td>
+					<td><textarea  rows="5" cols="50 name="address" placeholder="Enter your Address"></textarea></td>
+				</tr>
+			
+				
+
+					<tr>
+						<td><input type="submit" name="submit">
+							<input type="Reset" name="reset"></td>
+					</tr>
+		
+			</table>
+		</form>
+	</body>
+</html>
